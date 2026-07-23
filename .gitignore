@@ -1,0 +1,73 @@
+# ==========================================
+# C++ Build Artifacts & Executables
+# ==========================================
+.exe
+.dll
+.so
+.dylib
+.lib
+.a
+.out
+.app
+
+# Intermediate object & precompiled header files
+.o
+.obj
+.pch
+.gch
+.idb
+.pdb
+.ilk
+
+# ==========================================
+# Visual Studio  MSVC Temporary Files
+# ==========================================
+.vs
+.vcxproj.user
+.vcxproj.filters
+.sln.docstates
+.suo
+.user
+.userosv
+.pfx
+.publishsettings
+
+# Build directories
+[Dd]ebug
+[Dd]ebugPublic
+[Rr]elease
+[Rr]eleases
+x64
+x80
+[Bb]uild
+[Bb]in
+[Oo]bj
+
+# ==========================================
+# MinGW  GCC Build Artifacts
+# ==========================================
+.d
+
+# ==========================================
+# System & IDE Specific Files
+# ==========================================
+# Windows System Files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN
+
+# VS Code Metadata
+.vscode
+!.vscodesettings.json
+!.vscodetasks.json
+!.vscodelaunch.json
+!.vscodeextensions.json
+.code-workspace
+
+# CLion  JetBrains CMake
+.idea
+cmake-build-
+
+# Logs
+.log
