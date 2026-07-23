@@ -124,7 +124,3 @@ g++ C.cpp -o C.exe -O3 -s -DNDEBUG -static -static-libgcc -static-libstdc++ -mwi
 3. **`Oil.exe`** will automatically launch its master console window and initiate `A.exe`.
 4. While running, double-click **`B.exe`** or **`C.exe`**—their output will seamlessly append to `Oil.exe`'s console.
 5. Attempting to launch **`A.exe`** again while it is currently active will produce a duplicate execution rejection notice in `Oil.exe`.
-
-```
-
-```
