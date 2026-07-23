@@ -47,8 +47,6 @@ This repository provides a production-ready baseline for supervising modular bac
 
 ```
 
----
-
 ## Key Features
 
 * **Self-Healing Launcher Chain:** Double-clicking any worker executable (`A.exe`, `B.exe`, `C.exe`) automatically checks if the host orchestrator (`Oil.exe`) is running. If missing, the worker boots `Oil.exe` automatically and hands off execution cleanly.
