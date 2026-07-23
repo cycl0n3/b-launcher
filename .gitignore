@@ -1,73 +1,68 @@
-# ==========================================
-# C++ Build Artifacts & Executables
-# ==========================================
-.exe
-.dll
-.so
-.dylib
-.lib
-.a
-.out
-.app
+# Prerequisites
+*.d
 
-# Intermediate object & precompiled header files
-.o
-.obj
-.pch
-.gch
-.idb
-.pdb
-.ilk
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# ==========================================
-# Visual Studio  MSVC Temporary Files
-# ==========================================
-.vs
-.vcxproj.user
-.vcxproj.filters
-.sln.docstates
-.suo
-.user
-.userosv
-.pfx
-.publishsettings
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 # Build directories
-[Dd]ebug
-[Dd]ebugPublic
-[Rr]elease
-[Rr]eleases
-x64
-x80
-[Bb]uild
-[Bb]in
-[Oo]bj
+build/
+Build/
+build-*/
 
-# ==========================================
-# MinGW  GCC Build Artifacts
-# ==========================================
-.d
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
 
-# ==========================================
-# System & IDE Specific Files
-# ==========================================
-# Windows System Files
-Thumbs.db
-Desktop.ini
-ehthumbs.db
-$RECYCLE.BIN
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
 
-# VS Code Metadata
-.vscode
-!.vscodesettings.json
-!.vscodetasks.json
-!.vscodelaunch.json
-!.vscodeextensions.json
-.code-workspace
+# vcpkg
+vcpkg_installed/
 
-# CLion  JetBrains CMake
-.idea
-cmake-build-
+# debug information files
+*.dwo
 
-# Logs
-.log
+# test output & cache
+Testing/
+.cache/
