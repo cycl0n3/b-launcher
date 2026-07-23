@@ -1,15 +1,14 @@
 ```markdown
-# Win32 Process Orchestration & Sandboxing Architecture
+## Win32 Process Orchestration & Sandboxing Architecture
 
 A lightweight, high-performance C++ Master-Worker orchestration framework for Windows platforms. 
 
 This repository provides a production-ready baseline for supervising modular background applications (`A.exe`, `B.exe`, `C.exe`) from a single central orchestrator (`Oil.exe`). The system enforces strict process sandboxing via Windows Job Objects, prevents duplicate instances, manages windowless background execution, and streams all logs into a centralized console via Win32 Named Pipes.
 
----
 
 ## 🏗️ Architecture Overview
 
-```text
+```
                         +----------------------------+
                         |     User / Launcher        |
                         +----------------------------+
